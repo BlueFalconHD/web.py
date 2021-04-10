@@ -4,6 +4,7 @@
         <style>
             .black {
                 background-color: black;
+                color: white;
             }
          </style>
         <p class="black">Hello World</p>
