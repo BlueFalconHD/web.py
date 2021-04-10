@@ -5,6 +5,8 @@
             .black {
                 background-color: black;
                 color: white;
+                font-family: Monopace;
+                text-align: center;
             }
          </style>
         <p class="black">Hello World</p>
