@@ -5,7 +5,7 @@
             .black {
                 background-color: black;
                 color: white;
-                font-family: monopace;
+                font-family: system-ui;
                 text-align: center;
             }
          </style>
