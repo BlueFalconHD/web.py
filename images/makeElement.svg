@@ -5,7 +5,7 @@
             .black {
                 background-color: black;
                 color: white;
-                font-family: Monopace;
+                font-family: monopace;
                 text-align: center;
             }
          </style>
