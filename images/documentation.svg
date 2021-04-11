@@ -1,0 +1,152 @@
+<svg fill="none" viewBox="0 0 120 120" width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+     <head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>Web.py Documentation</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"SF UI Display";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"SF Compact Display";}
+@font-face
+	{font-family:"Cascadia Code SemiBold";}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:48.0pt;line-height:107%;font-family:"SF Compact Display",sans-serif;
+color:#404040'>Web.py</span><span style='font-size:48.0pt;line-height:107%;
+font-family:"SF UI Display";color:#404040'> </span><span style='font-size:26.0pt;
+line-height:107%;font-family:"SF UI Display"'>Documentation</span></p>
+
+<p class=MsoNormal><span style='position:absolute;z-index:251659264;margin-left:
+102px;margin-top:17px;width:422px;height:1px'><img width=422 height=1
+src="Web_files/image001.png"></span><span style='font-size:26.0pt;line-height:
+107%;font-family:"SF UI Display"'>                                                                              </span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"SF Compact Display",sans-serif'>Making
+an element:</span></p>
+
+<p class=MsoNormal style='margin-left:.5in;background:#595959'><span
+style='font-family:"Cascadia Code SemiBold";color:#7F7F7F'>test-element =
+element(“p”, css=[“font-family: monospace”], content=”Hello World!”)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in;background:white'><span
+style='font-family:"SF Compact Display",sans-serif;color:black'>turns into:</span></p>
+
+<p class=MsoNormal style='margin-left:.5in;background:white'><span
+style='font-family:"Cascadia Code SemiBold";color:black'>Hello World</span></p>
+
+<p class=MsoNormal style='margin-left:.5in;background:white'><span
+style='font-family:"SF Compact Display",sans-serif;color:black'>More:</span></p>
+
+<p class=MsoNormal style='margin-left:.5in;background:white'><span
+style='font-family:"SF Compact Display",sans-serif;color:black'>All arguments =
+</span><span style='font-size:9.0pt;line-height:107%;font-family:"Cascadia Code SemiBold";
+color:black'>element(“p”, css=[], content=””, props=[], runCompilecss = True)</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;background:white'><span
+style='font-family:Symbol;color:black'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"SF Compact Display",sans-serif;
+color:black'>Reference stylesheet:</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='background:#595959'><span
+style='font-family:"Cascadia Code SemiBold";color:#7F7F7F'>style = reference_stylesheet(“css/file/directory/cool.css”)</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;background:white'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"SF Compact Display",sans-serif;
+color:black'>Compile your site:</span></p>
+
+<p class=MsoListParagraphCxSpLast style='background:#595959'><span
+style='font-family:"Cascadia Code SemiBold";color:#7F7F7F'>compileSite(code=[test_element],
+headcode=[style], filename=”test”)</span></p>
+
+<p class=MsoNormal style='background:white'><span style='font-family:"Cascadia Code SemiBold";
+color:black'>&nbsp;</span></p>
+
+</div>
+
+</body>
+    </div>
+  </foreignObject>
+</svg>
